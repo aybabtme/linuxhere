@@ -28,4 +28,5 @@ RUN /bin/bash -c 'apt-get install -y --force-yes \
     dmsetup \
     automake \
     autoconf \
-    libdevmapper-dev;'
+    libdevmapper-dev \
+    dh-make;'
