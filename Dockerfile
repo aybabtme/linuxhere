@@ -25,4 +25,7 @@ echo $fish_path >> /etc/shells; \
 chsh root -s $fish_path;'
 
 RUN /bin/bash -c 'apt-get install -y --force-yes \
-    dmsetup;'
+    dmsetup \
+    automake \
+    autoconf \
+    libdevmapper-dev;'
