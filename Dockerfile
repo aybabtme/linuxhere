@@ -29,4 +29,5 @@ RUN /bin/bash -c 'apt-get install -y --force-yes \
     automake \
     autoconf \
     libdevmapper-dev \
-    dh-make;'
+    dh-make \
+    cpio;'
