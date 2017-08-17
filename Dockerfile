@@ -29,5 +29,6 @@ RUN /bin/bash -c 'apt-get install -y --force-yes \
     automake \
     autoconf \
     libdevmapper-dev \
+    libvirt-dev \
     dh-make \
     cpio;'
